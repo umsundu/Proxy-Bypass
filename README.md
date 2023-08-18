@@ -10,6 +10,7 @@ $WebSession.Proxy=$Proxy
 ```
 
 ## Test proxy bypass is working.
+If working, you should get back a StatusCode: 200 and a bunch more content including headers etc.
 ```
 Invoke-webrequest -Uri "https://www.google.com" -WebSession $WebSession
 ```
