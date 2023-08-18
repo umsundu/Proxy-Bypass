@@ -2,6 +2,7 @@
 When PowerShell is available and you need to bypass those annoying corp proxies, give this a try. A proxy bypass using powershell. Sucecssfully used to bypass Menlo Security Web Gateway. 
 
 ## PowerShell code for proxy bypass.
+Paste as is into powershell session. 
 ```
 $Proxy-New-object System.Net.WebProxy
 $WebSession-new-object Microsoft.PowerShell.Commands.WebRequestSession
