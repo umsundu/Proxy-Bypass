@@ -1,7 +1,7 @@
 # Proxy-Bypass
 A proxy bypass using powershell. Sucecssfully used to bypass Menlo Security Web Gateway. 
 
-## Powershell Code for proxy bypass.
+## Powershell code for proxy bypass.
 ```
 $Proxy-New-object System.Net.WebProxy
 $WebSession-new-object Microsoft.PowerShell.Commands.WebRequestSession
